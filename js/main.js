@@ -122,6 +122,34 @@ $(".slider").owlCarousel({
         }
     });
 
+    $(".houses").owlCarousel({
+        autoplay:false,
+        loop:true,
+        margin:10,
+        dots: false,
+        nav:true,
+        responsiveClass:true,
+        navText:["<span class='icon-double-left'></span>","<span class='icon-double-right'></span>"],
+        responsive:{
+            0:{
+                items:1,
+            },
+            650:{
+                items:3,
+                nav:false,
+            },
+            768:{
+                items:3,
+                nav:false,
+            },
+            1000:{
+                items:3,
+                nav:false,
+            }
+        }
+    });
+
+
     /*--- SCROLLING ---*/
     var $header = $('header');
     var offset = 100;

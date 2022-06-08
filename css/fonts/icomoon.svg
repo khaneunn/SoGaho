@@ -27,4 +27,6 @@
 <glyph unicode="&#xe911;" glyph-name="arrow-long-right" d="M684 468.667v128l170-170-170-170v128h-514v84h514z" />
 <glyph unicode="&#xe912;" glyph-name="minus" d="M819.2 426.667c0-28.314-2.458-51.2-30.771-51.2h-552.858c-28.262 0-30.771 22.886-30.771 51.2s2.509 51.2 30.771 51.2h552.909c28.262 0 30.72-22.886 30.72-51.2z" />
 <glyph unicode="&#xe913;" glyph-name="plus" d="M810 384.667h-256v-256h-84v256h-256v84h256v256h84v-256h256v-84z" />
+<glyph unicode="&#xe914;" glyph-name="arrow-forward-bold" d="M250 762.667l92 90 426-426-426-426-92 90 338 336z" />
+<glyph unicode="&#xe915;" glyph-name="arrow-back-bold" d="M498 772.667l-346-346 346-346-76-76-422 422 422 422z" />
 </font></defs></svg>
