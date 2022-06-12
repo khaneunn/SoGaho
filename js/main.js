@@ -41,8 +41,7 @@ $(document).ready(function(){
     });
 
 
-
-$(".slider").owlCarousel({
+    $(".slider").owlCarousel({
     autoplay:false,
     loop:true,
     items:1,
@@ -175,6 +174,25 @@ $(".slider").owlCarousel({
         }
         $(this).next('.desc').slideToggle(200).end().parent('li').toggleClass('content-visible');
         e.preventDefault();
+    });
+
+    $(".lazyestload").unveil(0,function() {
+        $(this).on('load', function() {
+            $(this).removeClass('lazyestload');
+        });
+    });
+
+    /*---------- LEADERSHIP ----------*/
+    $('.leadership a[data-fancybox]').fancybox({
+        afterShow: function(instance, current) {
+            var popupID = current.src;
+            var pic = $(popupID).find(".lazyestload");
+            $(pic).unveil(0,function() {
+                $(this).on('load', function() {
+                    $(this).removeClass('lazyestload');
+                });
+            });
+        }
     });
 
 });
