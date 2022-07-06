@@ -26,16 +26,65 @@
     <link rel="stylesheet" type="text/css" href="css/main.css" />
 </head>
 <body>
+<!-- main_wrapper -->
+<div id="main_wrapper" class="clearfloat">
+    <!-- mobile_nav_wrapper -->
+    <div id="mobile_nav_wrapper">
+        <div class="mobile-nav-content">
+            <div class="header">
+                <a href="#" class="menu-close">&times;</a>
+            </div>
+            <ul class="mobile-nav">
+                <li>
+                    <a href="#" class="active">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Contact Us</a>
+                </li>
+                <li class="has-children">
+                    <a href="#" class="toggle">Menu 3</a>
+                    <ul class="sub-nav">
+                        <li><a href="#">Sub-menu 1</a></li>
+                        <li><a href="#">Sub-menu 2</a></li>
+                        <li><a href="#">Sub-menu 3</a></li>
+                        <li><a href="#">Sub-menu 4</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#" class="toggle">Menu 4</a>
+                    <ul class="sub-nav">
+                        <li><a href="#">Sub-menu 1</a></li>
+                        <li><a href="#">Sub-menu 2</a></li>
+                        <li><a href="#">Sub-menu 3</a></li>
+                        <li><a href="#">Sub-menu 4</a></li>
+                    </ul>
+                </li>
+                <li class="has-children">
+                    <a href="#" class="toggle">Menu 5</a>
+                    <ul class="sub-nav">
+                        <li><a href="#">Sub-menu 1</a></li>
+                        <li><a href="#">Sub-menu 2</a></li>
+                        <li><a href="#">Sub-menu 3</a></li>
+                        <li><a href="#">Sub-menu 4</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- mobile_nav_wrapper end -->
+
 <header>
-<div class="top-bar-purple">
-     <div class="wrapper">
-         <div class="tbl">
+<div class="top-bar-purple tbl clearfix">
+     <div class="wrapper clearfix">
              <div class="col left">
                  <div class="top-menu">
                      <ul>
                          <li class="active"><a href="#">Home</a></li>
                          <li><a href="#">About</a></li>
-                         <li><a href="#">WHO WE ARE</a></li>
                          <li><a href="#">SERVICES</a></li>
                          <li><a href="#">PACKAGES </a></li>
                          <li><a href="#">CAREERS </a></li>
@@ -43,7 +92,6 @@
                          <li><a href="#">FAQ’S</a></li>
                      </ul>
                  </div>
-
              </div>
              <div class="col middle">
                  <div class="menu-icns">
@@ -67,8 +115,6 @@
                  </div>
 
                  </div>
-             </diiv>
-         </div>
      </div>
 </div>
 <div class="animate-search">
@@ -110,7 +156,7 @@
               <div class="col right">
                   <div class="primary-btn blue small">Help</div>
                   <a href="#" class="btn-search icon-icon-search"></a>
-
+                  <div class="menu-icon"><span class="icon-main-menu"></span></div>
               </div>
           </div>
      </div>
@@ -213,16 +259,6 @@ starting from <span class="prize">$25</span></span></h1>
                     </ul>
                 </div>
             </div>
-            <div class="col">
-                <h3 class="sub-heading">4G LTE</h3>
-                <div class="links-wrap">
-                    <ul style="display: block">
-                        <li><a href="#">Fiber lite</a></li>
-                        <li><a href="#">Fiber premium</a></li>
-                        <li><a href="#">Fiber Xtra</a></li>
-                    </ul>
-                </div>
-            </div>
         </div>
 
     </div>
@@ -294,36 +330,6 @@ starting from <span class="prize">$25</span></span></h1>
         </ul>
     </div>
 
-</section>
-<section class="broadband padding-top-bottom">
-    <div class="wrapper">
-        <div class="centre">
-            <h4><span>OUR BROADBAND SERVICES</span>
-                Don’t Let Anything Slow you Down</h4>
-        </div>
-    </div>
-    <div class="testing wrapper owl-carousel owl-theme ">
-        <ul class="sln-products padding-top-bottom">
-            <div class="item">
-                <li>
-                    <div class="block ">
-                        <h3 class="box-title">BUSINESS PACKAGE
-                            <span>Enterprise Solution</span> </h3>
-                        <div class="icn">
-                            <img src="images/icons/tower.png" width="" height="">
-                        </div>
-                        <span class="desc">Protection for everything you are working for and working toward</span>
-
-                        <div class="figures">
-                            <div class="link">
-                                <a href="#" class="secondary-btn" style="">Read more</a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-            </div>
-        </ul>
-    </div>
 </section>
 <section class="testimonials padding-top-bottom">
     <div class="testimony wrapper">
@@ -399,66 +405,6 @@ starting from <span class="prize">$25</span></span></h1>
 
     </div>
 
-</section>
-<section class="stream padding-top-bottom">
-    <div class="wrapper">
-        <h4><span>STREAM WITHOUT THE STOP</span>
-            Discover a World of Entertainment</h4>
-
-    <ul class="blocks-menu">
-        <li>
-            <a href="#">
-                <img class="" src="images/stream/video.jpg" data-src="images/stream/video.jpg" width="390" height="292" alt="Open an Account">
-                <span class="caption-wrapper">
-						<span class="caption-tbl">
-							<span class="caption">
-								<span class="title">Open an Account</span>
-							</span>
-						</span>
-					</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img class="" src="images/stream/sports.jpg" data-src="images/stream/sports.jpg" width="390" height="292" alt="Open an Account">
-                <span class="caption-wrapper">
-						<span class="caption-tbl">
-							<span class="caption">
-								<span class="title">Open an Account</span>
-							</span>
-						</span>
-					</span>
-            </a>
-            <a href="#">
-                <img class="" src="images/stream/music.jpg" data-src="images/stream/music.jpg" width="390" height="292" alt="Open an Account">
-                <span class="caption-wrapper">
-						<span class="caption-tbl">
-							<span class="caption">
-								<span class="title">Open an Account</span>
-							</span>
-						</span>
-					</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <img class="" src="images/stream/victoria.jpg" data-src="images/stream/victoria.jpg" width="390" height="292" alt="Open an Account">
-                <span class="caption-wrapper">
-						<span class="caption-tbl">
-							<span class="caption">
-								<span class="title">Open an Account</span>
-							</span>
-						</span>
-					</span>
-            </a>
-        </li>
-
-    </ul>
-        <div class="centre">
-            <div class="primary-btn blue">See Our Home Bundles</div>
-        </div>
-
-    </div>
 </section>
 <section class="speed-needed padding-top-bottom">
     <div class="wrapper">
@@ -650,63 +596,6 @@ starting from <span class="prize">$25</span></span></h1>
 </div>
 
 </section>
-<section class="news padding-top-bottom">
-         <div class="wrapper">
-             <h4><span>OUR BLOG POSTS</span>
-                 Latest News & Articles</h4>
-         </div>
-    <div class="wrapper">
-        <ul class="news-articles blog">
-            <li class="half">
-                <div class="block equal-height">
-                    <a href="#" class="pic-wrapper">
-                        <img src="images/news/base.jpg" width="570" height="320" alt="Article Pic">
-                    </a>
-                    <div class="desc">
-                        <div class="meta">
-                            <div class="cell left">
-                                <span class="date redy">By Admin</span>
-                            </div>
-                            <div class="cell right">
-                                <span class="date redy">May 13, 2019</span>
-                            </div>
-                        </div>
-                        <h2>iPad Prize Draw - Recycle your Hub One router</h2>
-                        <p> Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum Take a look at our round up of the best shows coming soon
-                            to your telly box has been the is industrys.</p>
-                        <div class="link">
-                            <a href="#" class="secondary-btn" style="">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="half">
-                <div class="block equal-height">
-                    <a href="#" class="pic-wrapper">
-                        <img src="images/news/watch.jpg" width="570" height="320" alt="Article Pic">
-                    </a>
-                    <div class="desc">
-                        <div class="meta">
-                            <div class="cell left">
-                                <span class="date redy">By Admin</span>
-                            </div>
-                            <div class="cell right">
-                                <span class="date redy">May 13, 2019</span>
-                            </div>
-                        </div>
-                        <h2>iPad Prize Draw - Recycle your Hub One router</h2>
-                        <p> Lorem Ipsum is simply dummy text of the new design printng and type setting Ipsum Take a look at our round up of the best shows coming soon
-                            to your telly box has been the is industrys.</p>
-                        <div class="link">
-                            <a href="#" class="secondary-btn" style="">Read more</a>
-                        </div>
-                    </div>
-                </div>
-            </li>
-        </ul>
-    </div>
-
-</section>
 <section class="switching">
          <div class="col centre">
              <p>When it Comes to Switching,
@@ -817,6 +706,11 @@ starting from <span class="prize">$25</span></span></h1>
     </div>
 
 </section>
+
+<!-- content_mask -->
+<div id="content_mask"></div>
+<!-- content_mask end -->
+</div>
 <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
 <script type="text/javascript" src="js/plugin.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
