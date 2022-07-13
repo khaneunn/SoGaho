@@ -4182,6 +4182,11 @@ header .menu-icon {
     display: none;
 }
 .feedback, .owl-carousel .owl-nav.disabled {display: none;}
+.c-form{
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
 
 @media only screen and (max-width: 1280px) {
     .menu-icns .text {
