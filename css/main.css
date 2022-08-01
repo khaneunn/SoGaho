@@ -618,9 +618,8 @@ header.animate-search.scrolling {
 
 #main_nav .sub-menu{
     position: absolute;
-    width: calc(100% - 0px);
-    padding: 40px 10px;
-    left: 0;
+    width: 25%;
+    padding: 25px 10px;
     margin: auto;
     top: 44px;
     background-color: #f9f9f9;
@@ -640,9 +639,9 @@ header.animate-search.scrolling {
 }
 #main_nav .sub-menu .col:first-child{border:0 none;}
 #main_nav .sub-menu ul{width:100%;padding:0 40px;
-    -webkit-columns: 3;
-    -moz-columns: 3;
-    columns: 3;
+    -webkit-columns: 1;
+    -moz-columns: 1;
+    columns: 1;
     -webkit-column-gap: 70px;
     -moz-column-gap: 70px;
     column-gap: 70px;
